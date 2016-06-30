@@ -5,13 +5,27 @@ import (
 
 	"github.com/Unknwon/macaron"
 	"github.com/macaron-contrib/binding"
-	"github.com/raintank/raintank-apps/pkg/auth"
-	"github.com/raintank/worldping-api/pkg/api/rbody"
-	"github.com/raintank/worldping-api/pkg/log"
-	"github.com/raintank/worldping-api/pkg/middleware"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/raintank-apps/pkg/auth"
+//	"github.com/raintank/worldping-api/pkg/api/rbody"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	"github.com/raintank/worldping-api/pkg/middleware"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+// Change path
+
+	"github.com/ChihChaoChang/raintank-apps/pkg/auth"
+        "github.com/ChihChaoChang/worldping-api/pkg/api/rbody"
+        "github.com/ChihChaoChang/worldping-api/pkg/log"
+        "github.com/ChihChaoChang/worldping-api/pkg/middleware"
+         m "github.com/ChihChaoChang/worldping-api/pkg/models"
+        "github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+ 	 "github.com/ChihChaoChang/worldping-api/pkg/setting"
+
+
+
+
 )
 
 // Register adds http routes

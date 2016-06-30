@@ -4,7 +4,13 @@ import (
 	"testing"
 	"time"
 
-	m "github.com/raintank/worldping-api/pkg/models"
+//	m "github.com/raintank/worldping-api/pkg/models"
+
+// Change Path
+
+	 m "github.com/ChihChaoChang/worldping-api/pkg/models"
+
+
 	. "github.com/smartystreets/goconvey/convey"
 )
 

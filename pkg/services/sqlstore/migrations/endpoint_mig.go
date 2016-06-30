@@ -2,8 +2,13 @@ package migrations
 
 import (
 	"github.com/go-xorm/xorm"
-	m "github.com/raintank/worldping-api/pkg/models"
-	. "github.com/raintank/worldping-api/pkg/services/sqlstore/migrator"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	. "github.com/raintank/worldping-api/pkg/services/sqlstore/migrator"
+
+	 m "github.com/ChihChaoChang/worldping-api/pkg/models"
+ 	. "github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore/migrator"
+
+
 )
 
 func addEndpointMigration(mg *Migrator) {

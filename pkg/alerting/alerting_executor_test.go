@@ -7,8 +7,16 @@ import (
 
 	"bosun.org/graphite"
 	"github.com/hashicorp/golang-lru"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+
+//	Change the path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/models"
+	m "github.com/ChihChaoChang/worldping-api/pkg/setting"
+
+
 	. "github.com/smartystreets/goconvey/convey"
 )
 

@@ -13,16 +13,31 @@ import (
 
 	"github.com/Dieterbe/profiletrigger/heap"
 	"github.com/raintank/met/helper"
-	"github.com/raintank/worldping-api/pkg/alerting"
-	"github.com/raintank/worldping-api/pkg/api"
-	"github.com/raintank/worldping-api/pkg/cmd"
-	"github.com/raintank/worldping-api/pkg/events"
-	"github.com/raintank/worldping-api/pkg/log"
-	"github.com/raintank/worldping-api/pkg/services/collectoreventpublisher"
-	"github.com/raintank/worldping-api/pkg/services/metricpublisher"
-	"github.com/raintank/worldping-api/pkg/services/notifications"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/alerting"
+//	"github.com/raintank/worldping-api/pkg/api"
+//	"github.com/raintank/worldping-api/pkg/cmd"
+//	"github.com/raintank/worldping-api/pkg/events"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	"github.com/raintank/worldping-api/pkg/services/collectoreventpublisher"
+//	"github.com/raintank/worldping-api/pkg/services/metricpublisher"
+//	"github.com/raintank/worldping-api/pkg/services/notifications"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+
+
+// Change the path from raintank to my dir
+
+	"github.com/ChihChaoChang/worldping-api/pkg/alerting"
+	"github.com/ChihChaoChang/worldping-api/pkg/api"
+	"github.com/ChihChaoChang/worldping-api/pkg/cmd"
+	"github.com/ChihChaoChang/worldping-api/pkg/events"
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/collectoreventpublisher"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/metricpublisher"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/notifications"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
 )
 
 var version = "master"

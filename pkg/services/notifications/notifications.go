@@ -9,9 +9,16 @@ import (
 	"path/filepath"
 
 	"github.com/grafana/grafana/pkg/util"
-	"github.com/raintank/worldping-api/pkg/log"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+//change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
 )
 
 var mailTemplates *template.Template

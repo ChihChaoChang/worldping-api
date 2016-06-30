@@ -2,8 +2,12 @@ package sqlstore
 
 import (
 	"fmt"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/setting"
+//change path
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
 )
 
 type targetCount struct {

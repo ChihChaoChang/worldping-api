@@ -5,8 +5,12 @@ import (
 	"testing"
 	"time"
 
-	m "github.com/raintank/worldping-api/pkg/models"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//change path
+         m "github.com/ChihChaoChang/worldping-api/pkg/models"
+
 	. "github.com/smartystreets/goconvey/convey"
+
 )
 
 func populateProbes(t *testing.T) {

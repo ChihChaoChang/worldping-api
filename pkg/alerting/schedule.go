@@ -6,11 +6,21 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/raintank/raintank-metric/schema"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/metricpublisher"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/raintank-metric/schema"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/metricpublisher"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+// Change path
+
+	"github.com/ChihChaoChang/raintank-metric/schema"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/metricpublisher"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
+
 )
 
 func StoreResult(job *m.AlertingJob) {

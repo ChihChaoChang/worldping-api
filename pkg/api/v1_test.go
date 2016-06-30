@@ -11,11 +11,23 @@ import (
 
 	"github.com/Unknwon/macaron"
 	"github.com/go-xorm/xorm"
-	"github.com/raintank/worldping-api/pkg/api/rbody"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore/sqlutil"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/api/rbody"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore/sqlutil"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+
+// Change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/api/rbody"
+ 	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore/sqlutil"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
+
+
 	. "github.com/smartystreets/goconvey/convey"
 )
 

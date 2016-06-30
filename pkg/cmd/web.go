@@ -14,9 +14,18 @@ import (
 	"github.com/Unknwon/macaron"
 	"github.com/macaron-contrib/toolbox"
 
-	"github.com/raintank/worldping-api/pkg/api"
-	"github.com/raintank/worldping-api/pkg/log"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/api"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+// Change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/api"
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
+
+
 )
 
 func newMacaron() *macaron.Macaron {

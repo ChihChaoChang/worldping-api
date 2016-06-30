@@ -4,8 +4,14 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/raintank/worldping-api/pkg/log"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+// Change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
 )
 
 // this channel decouples the secondly tick from the dispatching (which is mainly database querying)

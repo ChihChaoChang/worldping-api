@@ -7,9 +7,16 @@ import (
 	"testing"
 
 	"github.com/Unknwon/macaron"
-	"github.com/raintank/worldping-api/pkg/api/rbody"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/api/rbody"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+
+	"github.com/ChihChaoChang/worldping-api/pkg/api/rbody"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
+
 	. "github.com/smartystreets/goconvey/convey"
 )
 

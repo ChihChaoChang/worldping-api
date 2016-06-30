@@ -1,11 +1,20 @@
 package api
 
 import (
-	"github.com/raintank/worldping-api/pkg/api/rbody"
-	"github.com/raintank/worldping-api/pkg/middleware"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/api/rbody"
+//	"github.com/raintank/worldping-api/pkg/middleware"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+//change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/api/rbody"
+	"github.com/ChihChaoChang/worldping-api/pkg/middleware"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+	"github.com/ChihChaochang/worldping-api/pkg/setting"
+
 )
 
 func V1GetOrgQuotas(c *middleware.Context) {

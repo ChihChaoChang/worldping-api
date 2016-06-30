@@ -14,9 +14,17 @@ import (
 	"time"
 
 	"github.com/grafana/grafana/pkg/util"
-	"github.com/raintank/worldping-api/pkg/log"
-	"github.com/raintank/worldping-api/pkg/middleware"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	"github.com/raintank/worldping-api/pkg/middleware"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+
+// Change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	"github.com/ChihChaoChang/worldping-api/pkg/middleware"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
 )
 
 func V1ElasticsearchProxy(c *middleware.Context) {

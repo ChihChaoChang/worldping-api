@@ -3,8 +3,12 @@ package api
 import (
 	"testing"
 
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+
 	. "github.com/smartystreets/goconvey/convey"
 )
 

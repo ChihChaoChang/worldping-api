@@ -2,9 +2,18 @@ package api
 
 import (
 	//"github.com/raintank/worldping-api/pkg/log"
-	"github.com/raintank/worldping-api/pkg/middleware"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+
+
+//	"github.com/raintank/worldping-api/pkg/middleware"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+
+// change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/middleware"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+
 )
 
 func V1GetCollectors(c *middleware.Context, query m.GetProbesQuery) {

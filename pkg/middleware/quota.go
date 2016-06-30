@@ -4,10 +4,16 @@ import (
 	"fmt"
 
 	"github.com/Unknwon/macaron"
-	"github.com/raintank/worldping-api/pkg/log"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+// change path
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	 m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaochang/worldping-api/pkg/services/sqlstore"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
 )
 
 func Quota(target string) macaron.Handler {

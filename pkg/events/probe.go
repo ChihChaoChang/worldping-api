@@ -4,8 +4,14 @@ import (
 	"encoding/json"
 	"time"
 
-	m "github.com/raintank/worldping-api/pkg/models"
+//	m "github.com/raintank/worldping-api/pkg/models"
+
+// change path
+
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+
 )
+
 
 type ProbeCreated struct {
 	Ts      time.Time

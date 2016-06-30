@@ -3,7 +3,10 @@ package sqlstore
 import (
 	"strconv"
 
-	m "github.com/raintank/worldping-api/pkg/models"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//change path
+
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
 )
 
 func GetUsage() (*m.Usage, error) {

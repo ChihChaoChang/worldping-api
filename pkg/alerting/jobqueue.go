@@ -4,10 +4,18 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/raintank/worldping-api/pkg/alerting/jobqueue"
-	"github.com/raintank/worldping-api/pkg/log"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/alerting/jobqueue"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+//Change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/alerting/jobqueue"
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
 )
 
 var (

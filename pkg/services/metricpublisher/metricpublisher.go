@@ -8,8 +8,14 @@ import (
 	"github.com/raintank/met"
 	msg "github.com/raintank/raintank-metric/msg"
 	"github.com/raintank/raintank-metric/schema"
-	"github.com/raintank/worldping-api/pkg/log"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+
+//change path
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
 )
 
 const maxMpubSize = 5 * 1024 * 1024 // nsq errors if more. not sure if can be changed

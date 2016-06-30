@@ -7,8 +7,13 @@ import (
 	"time"
 
 	"bosun.org/graphite"
-	"github.com/raintank/met/helper"
-	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/met/helper"
+//	m "github.com/raintank/worldping-api/pkg/models"
+
+//	Change path	
+	"github.com/ChihChaoChang/met/helper"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+
 	. "github.com/smartystreets/goconvey/convey"
 )
 

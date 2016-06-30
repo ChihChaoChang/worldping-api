@@ -8,10 +8,18 @@ import (
 	"time"
 
 	"github.com/hashicorp/golang-lru"
-	"github.com/raintank/worldping-api/pkg/graphite"
-	"github.com/raintank/worldping-api/pkg/log"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/graphite"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+
+// Change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/graphite"
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
 
 	bgraphite "bosun.org/graphite"
 )

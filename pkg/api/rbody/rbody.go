@@ -5,8 +5,14 @@ import (
 	"fmt"
 
 	"github.com/Unknwon/macaron"
-	"github.com/raintank/worldping-api/pkg/log"
-	"github.com/raintank/worldping-api/pkg/middleware"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	"github.com/raintank/worldping-api/pkg/middleware"
+
+// Change path
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	"github.com/ChihChaoChang/worldping-api/pkg/middleware"
+
+
 )
 
 var (

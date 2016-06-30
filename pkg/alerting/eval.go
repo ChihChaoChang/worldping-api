@@ -8,7 +8,12 @@ import (
 	"bosun.org/cmd/bosun/cache"
 	"bosun.org/cmd/bosun/expr"
 	"bosun.org/graphite"
-	m "github.com/raintank/worldping-api/pkg/models"
+//	m "github.com/raintank/worldping-api/pkg/models"
+
+	
+// Change path
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+
 )
 
 type Check struct {

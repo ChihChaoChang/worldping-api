@@ -13,17 +13,34 @@ import (
 	"github.com/fiorix/freegeoip"
 	"github.com/googollee/go-socket.io"
 	"github.com/raintank/met"
-	"github.com/raintank/raintank-apps/pkg/auth"
-	"github.com/raintank/raintank-metric/schema"
-	"github.com/raintank/worldping-api/pkg/events"
-	"github.com/raintank/worldping-api/pkg/log"
-	"github.com/raintank/worldping-api/pkg/middleware"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/collectoreventpublisher"
-	"github.com/raintank/worldping-api/pkg/services/metricpublisher"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
-	"github.com/raintank/worldping-api/pkg/setting"
-	"github.com/raintank/worldping-api/pkg/util"
+//	"github.com/raintank/raintank-apps/pkg/auth"
+//	"github.com/raintank/raintank-metric/schema"
+//	"github.com/raintank/worldping-api/pkg/events"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	"github.com/raintank/worldping-api/pkg/middleware"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/collectoreventpublisher"
+//	"github.com/raintank/worldping-api/pkg/services/metricpublisher"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/util"
+
+
+// Change path
+
+
+        "github.com/ChihChaoChang/raintank-apps/pkg/auth"
+       "github.com/ChihChaoChang/raintank-metric/schema"
+       "github.com/ChihChaoChang/worldping-api/pkg/events"
+       "github.com/ChihChaoChang/worldping-api/pkg/log"
+       "github.com/ChihChaoChang/worldping-api/pkg/middleware"
+       m "github.com/ChihChaoChang/worldping-api/pkg/models"
+       "github.com/ChihChaoChang/worldping-api/pkg/services/collectoreventpublisher"
+       "github.com/ChihChaoChang/worldping-api/pkg/services/metricpublisher"
+       "github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+       "github.com/ChihChaoChang/worldping-api/pkg/setting"
+       "github.com/ChihChaoChang/worldping-api/pkg/util"
+
 )
 
 var server *socketio.Server

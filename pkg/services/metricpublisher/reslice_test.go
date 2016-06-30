@@ -3,7 +3,10 @@ package metricpublisher
 import (
 	"testing"
 
-	"github.com/raintank/raintank-metric/schema"
+//	"github.com/raintank/raintank-metric/schema"
+//chnage path
+	"github.com/ChihChaoChang/raintank-metric/schema"
+
 )
 
 type testCase struct {

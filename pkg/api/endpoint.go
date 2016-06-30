@@ -4,11 +4,21 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/raintank/worldping-api/pkg/log"
-	"github.com/raintank/worldping-api/pkg/middleware"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/endpointdiscovery"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	"github.com/raintank/worldping-api/pkg/middleware"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/endpointdiscovery"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+
+// Change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	"github.com/ChihChaoChang/worldping-api/pkg/middleware"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/endpointdiscovery"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+
+
 )
 
 func V1GetEndpointById(c *middleware.Context) {

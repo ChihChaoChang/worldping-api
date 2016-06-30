@@ -10,8 +10,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/raintank/worldping-api/pkg/log"
-	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	m "github.com/raintank/worldping-api/pkg/models"
+
+// Change path
+
+	"github.com/ChihCahoChang/worldping-api/pkg/log"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+
 )
 
 type Endpoint struct {

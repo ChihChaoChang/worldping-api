@@ -5,7 +5,11 @@ import (
 	"testing"
 	"time"
 
-	m "github.com/raintank/worldping-api/pkg/models"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//change pathm 
+	"github.com/ChihChaoChang/worldping-api/pkg/models"
+
+
 )
 
 type scenario struct {

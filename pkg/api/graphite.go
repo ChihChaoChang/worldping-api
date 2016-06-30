@@ -9,10 +9,20 @@ import (
 	"strings"
 
 	"github.com/grafana/grafana/pkg/util"
-	"github.com/raintank/worldping-api/pkg/middleware"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/middleware"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+
+// Change path
+
+	"github.com/ChihChaoChng/worldping-api/pkg/middleware"
+	 m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
+
 )
 
 func V1GraphiteProxy(c *middleware.Context) {

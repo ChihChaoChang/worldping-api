@@ -1,9 +1,17 @@
 package api
 
 import (
-	"github.com/raintank/worldping-api/pkg/api/rbody"
-	"github.com/raintank/worldping-api/pkg/middleware"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/api/rbody"
+//	"github.com/raintank/worldping-api/pkg/middleware"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+
+
+//change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/api/rbody"
+	"github.com/ChihChaoChang/worldping-api/pkg/middleware"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+
 )
 
 func GetUsage(c *middleware.Context) *rbody.ApiResponse {

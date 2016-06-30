@@ -4,8 +4,12 @@ import (
 	"testing"
 
 	"github.com/go-xorm/xorm"
-	. "github.com/raintank/worldping-api/pkg/services/sqlstore/migrator"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore/sqlutil"
+//	. "github.com/raintank/worldping-api/pkg/services/sqlstore/migrator"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore/sqlutil"
+//change path
+	. "github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore/migrator"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore/sqlutil"
+
 
 	. "github.com/smartystreets/goconvey/convey"
 )

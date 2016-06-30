@@ -6,10 +6,16 @@ import (
 
 	"github.com/nsqio/go-nsq"
 	"github.com/raintank/met"
-	"github.com/raintank/raintank-metric/msg"
-	"github.com/raintank/raintank-metric/schema"
-	"github.com/raintank/worldping-api/pkg/log"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/raintank-metric/msg"
+//	"github.com/raintank/raintank-metric/schema"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+// Change path
+	"github.com/ChihChaoChang/raintank-metric/msg"
+	"github.com/ChihChaoChang/raintank-metric/schema"
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	"github.com/ChihChaochang/worldping-api/pkg/setting"
 )
 
 var (

@@ -3,7 +3,11 @@ package migrations
 import (
 	"fmt"
 
-	. "github.com/raintank/worldping-api/pkg/services/sqlstore/migrator"
+//	. "github.com/raintank/worldping-api/pkg/services/sqlstore/migrator"
+//change path
+
+	. "github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore/migrator"
+
 )
 
 func addDropAllIndicesMigrations(mg *Migrator, versionSuffix string, table Table) {

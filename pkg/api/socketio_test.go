@@ -12,11 +12,22 @@ import (
 	"github.com/graarh/golang-socketio"
 	"github.com/graarh/golang-socketio/transport"
 	"github.com/raintank/met/helper"
-	"github.com/raintank/raintank-apps/pkg/auth"
-	"github.com/raintank/worldping-api/pkg/events"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
-	"github.com/raintank/worldping-api/pkg/setting"
+
+
+//	"github.com/raintank/raintank-apps/pkg/auth"
+//	"github.com/raintank/worldping-api/pkg/events"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+
+//change path
+	"github.com/ChihChaoChang/raintank-apps/pkg/auth"
+	"github.com/ChihChaoChang/worldping-api/pkg/events"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
 	. "github.com/smartystreets/goconvey/convey"
 )
 

@@ -5,10 +5,18 @@ import (
 	"time"
 
 	"github.com/hashicorp/golang-lru"
-	"github.com/raintank/met"
-	"github.com/raintank/worldping-api/pkg/log"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/met"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+
+ 	 "github.com/ChihChaoChang/met"
+         "github.com/ChihChaoChang/worldping-api/pkg/log"
+          m "github.com/ChihChaoChang/worldping-api/pkg/models"
+          "github.com/ChihChaoChang/worldping-api/pkg/setting"
+
+
 )
 
 var jobQueueInternalItems met.Gauge

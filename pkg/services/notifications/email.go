@@ -1,7 +1,12 @@
 package notifications
 
 import (
-	"github.com/raintank/worldping-api/pkg/setting"
+//	"github.com/raintank/worldping-api/pkg/setting"
+// change path
+//	"github.com/ChihChaoChang/worldping-api/pkg/setting"
+
+
+
 )
 
 type Message struct {

@@ -5,7 +5,10 @@ import (
 	"strings"
 
 	"github.com/Unknwon/macaron"
-	"github.com/raintank/raintank-apps/pkg/auth"
+//	"github.com/raintank/raintank-apps/pkg/auth"
+// change path
+	"github.com/ChihChaoChang/raintank-apps/pkg/auth"
+
 )
 
 type Context struct {

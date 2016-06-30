@@ -1,6 +1,9 @@
 package migrations
 
-import . "github.com/raintank/worldping-api/pkg/services/sqlstore/migrator"
+//import . "github.com/raintank/worldping-api/pkg/services/sqlstore/migrator"
+//change path
+
+import . "github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore/migrator"
 
 func addAlertSchedulerValueMigration(mg *Migrator) {
 

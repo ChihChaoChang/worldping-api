@@ -4,9 +4,17 @@ import (
 	"testing"
 
 	"github.com/go-xorm/xorm"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore/sqlutil"
-	"github.com/raintank/worldping-api/pkg/setting"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore/sqlutil"
+//	"github.com/raintank/worldping-api/pkg/setting"
+
+//change path
+
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaochang/worldping-api/pkg/services/sqlstore/sqlutil"
+	"github.com/ChihChaochang/worldping-api/pkg/setting"
+
+
 	. "github.com/smartystreets/goconvey/convey"
 )
 

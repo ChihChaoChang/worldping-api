@@ -3,7 +3,13 @@ package events
 import (
 	"time"
 
-	"github.com/raintank/worldping-api/pkg/log"
+//	"github.com/raintank/worldping-api/pkg/log"
+
+//change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+
+
 	"github.com/streadway/amqp"
 	"golang.org/x/net/context"
 )

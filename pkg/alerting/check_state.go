@@ -4,10 +4,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/raintank/worldping-api/pkg/log"
-	m "github.com/raintank/worldping-api/pkg/models"
-	"github.com/raintank/worldping-api/pkg/services/notifications"
-	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+//	"github.com/raintank/worldping-api/pkg/log"
+//	m "github.com/raintank/worldping-api/pkg/models"
+//	"github.com/raintank/worldping-api/pkg/services/notifications"
+//	"github.com/raintank/worldping-api/pkg/services/sqlstore"
+
+
+//change path
+
+	"github.com/ChihChaoChang/worldping-api/pkg/log"
+	m "github.com/ChihChaoChang/worldping-api/pkg/models"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/notifications"
+	"github.com/ChihChaoChang/worldping-api/pkg/services/sqlstore"
+
+
 )
 
 var (
